@@ -1,0 +1,159 @@
+import 'package:flutter/material.dart';
+
+class Record extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Record'),
+      ),
+      body: Center(
+        child: Text('This is Record page'),
+      ),
+    );
+  }
+}
+
+class Suggestion extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Suggestion'),
+      ),
+      body: Center(
+        child: Text('This is Suggestion page'),
+      ),
+    );
+  }
+}
+
+class Database extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Database'),
+      ),
+      body: Center(
+        child: Text('This is Database page'),
+      ),
+    );
+  }
+}
+
+class Settings extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Settings'),
+      ),
+      body: Center(
+        child: Text('This is Settings page'),
+      ),
+    );
+  }
+}
+
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('On-time Eater'),
+      ),
+      body: Stack(
+        children: <Widget>[
+          //主页面提示词
+          Align(
+            alignment: Alignment.topCenter,
+            child: Padding(
+              padding: EdgeInsets.only(top: 150.0), // 控制文本距顶部的距离
+              child: Text(
+                'Have you eaten yet?',
+                style: TextStyle(fontSize: 36), // 可以调整文本大小
+              ),
+            ),
+          ),
+
+          // 使用 Align 将按钮组放置在屏幕中心靠下的位置
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Column(
+              mainAxisSize: MainAxisSize.min, // 使 Column 尽可能小
+              children: <Widget>[
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Record()),
+                    );
+                  },
+                  child: Text('Record'),
+                  style: ButtonStyle(
+                    minimumSize: MaterialStateProperty.all(Size(200, 50)), // 设置按钮的最小宽度和高度
+                  ),
+                ),
+                SizedBox(height: 20), // 按钮 1 和 按钮 2 之间的间距
+
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Suggestion()),
+                    );
+                  },
+                  child: Text('Suggestion'),
+                  style: ButtonStyle(
+                    minimumSize: MaterialStateProperty.all(Size(200, 50)), // 设置按钮的最小宽度和高度
+                  ),
+                ),
+                SizedBox(height: 20), // 按钮 2 和 按钮 3 之间的间距
+
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Database()),
+                    );
+                  },
+                  child: Text('Database'),
+                  style: ButtonStyle(
+                    minimumSize: MaterialStateProperty.all(Size(200, 50)), // 设置按钮的最小宽度和高度
+                  ),
+                ),
+                SizedBox(height: 75), // 与底部的距离
+              ],
+            ),
+          ),
+          // 使用 Align 将第四个按钮放置在屏幕右上角
+          Align(
+            alignment: Alignment.topRight,
+            child: Padding(
+              padding: EdgeInsets.only(top: 8.0, right: 8.0), // 与顶部和右侧的距离
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Settings()),
+                  );
+                },
+                child: Text('Settings'),
+                style: ButtonStyle(
+                  minimumSize: MaterialStateProperty.all(Size(100, 50)), // 设置按钮的最小宽度和高度
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(MaterialApp(
+    home: HomePage(),
+  ));
+}
