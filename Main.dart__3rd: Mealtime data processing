@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';//引入shared_preferences包以储存数据
 import 'package:intl/intl.dart'; // 引入 intl 包来格式化日期
-import 'package:fl_chart/fl_chart.dart'; //引入 flchart 包来生成表格
 
 class Record extends StatefulWidget {
   @override
