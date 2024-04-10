@@ -63,6 +63,16 @@ The user can return to the main page, or go to the database page to view their h
 
 The main.dart code for this update has now been uploaded to a file called 'Main.dart__2nd: Record function'.
 
+##  3.Mealtime data processing
+
+In this update, the ability to process and display mealtime data has been added to the database page. Now app can query the recorded data table, count the number of meals per day, and classify them into three periods of breakfast, lunch and dinner according to small meals, and then display the average meal time of each period. The effect is shown below:
+
+![image](https://github.com/zczqy80/Eater/assets/146266229/aa5fe42b-9804-4a28-b9a3-867d6a4d4eb6)
+
+The data in the figure is only used for random input during the test and has no practical significance. The statistical time for breakfast is 6:00~11:00, for lunch is 11:00~15:00, and for dinner is 15:00~22:00. The rest of the time is not counted. Data processing of dining locations will be added in the next update.
+
+The main.dart code for this update has now been uploaded to a file called 'Main.dart__3rd: Mealtime data processing'.
+
 #  Contact Details
 
 Having Contact Details is also good as it shows people how to get in contact with you if they'd like to contribute to the app. 
