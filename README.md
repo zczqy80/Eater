@@ -69,9 +69,31 @@ In this update, the ability to process and display mealtime data has been added 
 
 ![image](https://github.com/zczqy80/Eater/assets/146266229/aa5fe42b-9804-4a28-b9a3-867d6a4d4eb6)
 
-The data in the figure is only used for random input during the test and has no practical significance. The statistical time for breakfast is 6:00~11:00, for lunch is 11:00~15:00, and for dinner is 15:00~22:00. The rest of the time is not counted. Data processing of dining locations will be added in the next update.
+The data in the figure is only used for random input during the test and has no practical significance. The statistical time for breakfast is 6:00 to 11:00, for lunch is 11:00 to 15:00, and for dinner is 15:00 to 22:00. The rest of the time is not counted. Data processing of dining locations will be added in the next update.
 
 The main.dart code for this update has now been uploaded to a file called 'Main.dart__3rd: Mealtime data processing'.
+
+##  3.Meal location data processing
+
+In this update, it is now possible to display the percentage of places to eat, and a reminder of meal times has been added to the home page, which tells users how long it has been since their last meal. In addition, the function of deleting historical data in the Settings page is added and reminded. The database page now looks like the following:
+
+![image](https://github.com/zczqy80/Eater/assets/146266229/86d39b34-e8b4-4f22-8cf6-32cf6e726e18)
+
+Secondly, users can see the time since their last meal on the home page:
+
+![image](https://github.com/zczqy80/Eater/assets/146266229/2a12bff7-a044-4edb-882f-e237bfde4b9c)
+
+Finally, the setting page function is added. Now users can choose to clear historical data on the setting page:
+
+![image](https://github.com/zczqy80/Eater/assets/146266229/4f8e8b53-277d-4bc3-b27f-d86c359ff8ba)
+
+Since the clearing of historical data is not recoverable, an additional page will pop up to ask the user for confirmation:
+
+![image](https://github.com/zczqy80/Eater/assets/146266229/cd667fff-cce5-4238-81f3-6b7490c97e37)
+
+In the next update, the suggestion page for weather and humidity, and make food recommendations based on environmental conditions is planed to be finished.
+
+The main.dart code for this update has now been uploaded to a file called 'Main.dart__4rd: Meal location data processing'.
 
 #  Contact Details
 
