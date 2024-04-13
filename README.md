@@ -73,7 +73,7 @@ The data in the figure is only used for random input during the test and has no 
 
 The main.dart code for this update has now been uploaded to a file called 'Main.dart__3rd: Mealtime data processing'.
 
-##  3.Meal location data processing
+##  4.Meal location data processing
 
 In this update, it is now possible to display the percentage of places to eat, and a reminder of meal times has been added to the home page, which tells users how long it has been since their last meal. In addition, the function of deleting historical data in the Settings page is added and reminded. The database page now looks like the following:
 
@@ -94,6 +94,21 @@ Since the clearing of historical data is not recoverable, an additional page wil
 In the next update, the suggestion page for weather and humidity, and make food recommendations based on environmental conditions is planed to be finished.
 
 The main.dart code for this update has now been uploaded to a file called 'Main.dart__4rd: Meal location data processing'.
+
+##  5.Get the address and weather as well as food recommendations
+
+The last feature added to the app in this update is now available on the suggestion page, with user permissions. After permission, the app can obtain the user's current latitude and longitude, and get the temperature and weather information through api access.
+
+After getting the weather conditions, the app will randomly select and recommend food types from the list according to different temperature and humidity, and when the food types are not satisfied, users can choose to click the button to re-recommend:
+
+![image](https://github.com/zczqy80/Eater/assets/146266229/6898b930-90dd-400b-9900-399f252f9b23)
+
+In addition, the main page has been re-improved. The original main page cannot be refreshed, that is, after the user completes a new record, the time difference between now and the last meal time will not change. Now a refresh button has been added to the main page, which users can manually refresh to get the exact last meal interval:
+
+![image](https://github.com/zczqy80/Eater/assets/146266229/063ce263-520c-436b-aee1-a689b92dfa3b)
+
+The main.dart code for this update has now been uploaded to a file called 'Main.dart__5rd: Get the address and weather as well as food recommendations'.
+(ps: API token of weather has been replaced)
 
 #  Contact Details
 
