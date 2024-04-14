@@ -110,6 +110,14 @@ In addition, the main page has been re-improved. The original main page cannot b
 The main.dart code for this update has now been uploaded to a file called 'Main.dart__5rd: Get the address and weather as well as food recommendations'.
 (ps: API token of weather has been replaced)
 
+##  6.Apk release and web page
+
+The apk file of the App has been uploaded to the main folder, and all project files have been uploaded to the folder named casa0015cw.
+
+The introduction page of the App was compiled and all contents were uploaded to a folder named On-time Eater web page.
+
+In addition, the final code of the project, along with English comments, has now been uploaded to a file called 'Main.dart__6rd: Completed code with English commons'.
+
 #  Contact Details
 
 Having Contact Details is also good as it shows people how to get in contact with you if they'd like to contribute to the app. 
