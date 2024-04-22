@@ -1,46 +1,34 @@
-<!---
 
----
-title: "CASA0017: Web Architecture Final Assessment"
-author: "Steven Gray"
-date: "10 Dec 2021"
----
 
--->
+title: "CASA0015: Web Architecture Final Assessment"
+author: "Yuhang Lei"
+date: "22 April 2024"
 
-# Submission Guide
-
-You will need to edit this file, create a PDF using the instructions below, from this file.   Sign it digitally and upload to Moodle
-
-## How to create a PDF from Markdown
-When finished you should export to PDF using VSCode and MarkdownPDF Extension. Make sure you select no headers and no footers in the
-extension preferences before exporting to PDF.   
-
-Upload this PDF into Moodle for submission including a copy of your presentation slides.
 
 ## Link to GitHub Repository
 
-Flutter Application Name - MY APPLICATION NAME
-GitHub Repository - [https://github.com/ucl-casa-ce/casa0015-mobile-assessment](https://github.com/ucl-casa-ce/casa0015-mobile-assessment)
+Flutter Application Name - On-time Eater
+GitHub Repository - https://github.com/zczqy80/Eater
 
 ## Introduction to Application
 
-A brief 200 word explanation of your application and it's use.  Below create a Bibliography to code, tutorial, or plugins you've used in the project. Use this guide
-for citation - [https://www.scribbr.co.uk/referencing/harvard-website-reference/](https://www.scribbr.co.uk/referencing/harvard-website-reference/)
+The app is called "On-time Eater" and is a mobile app designed to help users manage their eating habits. The app allows users to better understand and control their eating habits by recording when and where they eat. The On-time Eater is characterized by its intuitive user interface and rich features, such as automatically calculating the time interval since the last meal(pub.dev, 2024) to remind users to eat in time. 
+
+In addition, the app can also provide weather information based on the user's geographical location information(pub.dev, 2024), helping users adjust their food choices according to the weather(OpenWeatherMap, 2024). All of the user's data is securely stored, and even if the app is closed and reopened, the past record can be seen at a glance. Through the app, users can arrange their daily meals more scientifically and promote a healthy life.
+
+In addition, the app has been designed with a number of user-friendly action reminder pop-ups. For example, after the completion of the record, user can go directly to the data page or return to the home page, and when deleting the record data, user will be asked to confirm again to prevent misconduct. 
 
 ## Biblography
 
-1. Last name, First initial. (Year published). Title. Edition. (Only include the edition if it is not the first edition) City published: Publisher, Page(s). <http://google.com>
-
-2. Last name, First initial. (Year published). Title. Edition. (Only include the edition if it is not the first edition) City published: Publisher, Page(s).  <http://google.com>
-
-----
+1. pub.dev (2024) intl package. Available at: https://pub.dev/packages/intl (Accessed: 22 April 2024).
+2. pub.dev (2024) location package. Available at: https://pub.dev/packages/location (Accessed: 22 April 2024).
+3. OpenWeatherMap (2024) Home page. Available at: https://openweathermap.org/ (Accessed: 22 April 2024).
 
 ## Declaration of Authorship
 
-We, AUTHORS NAME HERE, confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
+We, Yuhang Lei, confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
 
 
-Digitally Sign with Your name Here
+Yuhang Lei
 
-ASSESSMENT DATE
+22 April 2024
